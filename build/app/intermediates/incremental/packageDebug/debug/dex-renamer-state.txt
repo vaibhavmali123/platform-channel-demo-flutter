@@ -1,0 +1,4 @@
+#Tue Oct 12 15:06:53 IST 2021
+base.0=E\:\\Vaibhav\\demos\\platform_channel\\build\\app\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex
