@@ -29,10 +29,7 @@ public class MainActivity extends FlutterActivity {
       new MethodCallHandler() {
         @Override
         public void onMethodCall(MethodCall methodCall, Result result) {
-          if (methodCall.method.equals("changeLife")){
-            String message ="Life Changed";
-            result.success(message);
-          }
+          
           if (methodCall.method.equals("getDateTime")) {
               new Timer().scheduleAtFixedRate(new TimerTask() {
                   @Override
